@@ -1,0 +1,31 @@
+{
+  "name": "engine-E2E-specter-bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench:playwright": "playwright test",
+    "bench:cypress": "cypress run",
+    "bench:selenium": "ts-node suites/selenium/test.ts",
+    "test:security": "playwright test --project=security"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.0.9",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "cypress": "^15.14.2",
+    "selenium-webdriver": "^4.43.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

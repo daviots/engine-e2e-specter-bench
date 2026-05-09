@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
