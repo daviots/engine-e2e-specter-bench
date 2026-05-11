@@ -10,6 +10,7 @@ import (
 
 const targetURL = "http://localhost:3000"
 
+
 func main() {
 
 	fmt.Println("Starting Engine-E2E-Specter-Bench...")
