@@ -6,8 +6,6 @@ test.describe('Search and Catalog System (Funcional & AppSec)', () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto(TARGET_URL);
-    await page.getByRole('button', { name: 'Close Welcome Banner' }).click();
-    await page.getByRole('button', { name: 'dismiss cookie message' }).click();
   });
 
   test('Search for "Apple" and validate the real image loading', async ({ page }) => {
