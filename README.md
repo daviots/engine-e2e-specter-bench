@@ -1,8 +1,5 @@
 # Engine-E2E-Specter-Bench
 
-> **Work in Progress** / **Em Construção**
-> This project is currently under active development. Some features may be incomplete or unstable. / Ainda estou desenvolvendo o projeto. Algumas funcionalidades podem estar incompletas ou instáveis.
-
 🇺🇸 [English](#english) | 🇧🇷 [Português](#português)
 
 ---
